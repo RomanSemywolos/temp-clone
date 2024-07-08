@@ -1,0 +1,30 @@
+.pagination {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination > button {
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  color: var(--soft-silver);
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button.is-active {
+  border-radius: 50%;
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
+}
+
+.pagination > button:hover {
+  color: var(--dark-gray);
+}
